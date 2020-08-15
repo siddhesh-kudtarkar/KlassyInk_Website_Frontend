@@ -1,0 +1,43 @@
+.slides1
+{
+	display: none;
+}
+
+.slideshow-container
+{
+	max-width: 1000px;
+	position: absolute;
+	left: 315px;
+	top: 26px;
+	margin: auto;
+}
+
+.active1
+{
+	background-color: #717171;
+}
+
+.fade
+{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade
+{
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px)
+{
+	.text {font-size: 11px}
+}

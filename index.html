@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>KlassyInk - Buy Online Quirky, Funny, Cool T-Shirts for Men & Women</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/collapsible.css">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+	</head>
+	<body style="font-family: Verdana, Geneva, sans-serif; font-size: 18px">
+
+		<div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-light" style="text-align: center; display: none; font-size: 18px" id="mySidebar">
+		
+			<button class="w3-button w3-large w3-block w3-btn w3-ripple w3-hover-blue w3-hover-text-white" onclick="w3_close()">
+				&times; Close Menu
+			</button>
+			
+			<a href="index.html" class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/home.png" alt="Home" style="padding: 10px">Home
+			</a>
+			
+			<button class="w3-button collapsible w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/account-logo.png" alt="Account" style="padding: 10px">My Account
+			</button>
+			
+			<ul class="w3-ul content">
+				
+				<a href="login.html" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Login
+					</li>
+				</a>
+				
+				<a href="registration.html" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Register
+					</li>
+				</a>
+			
+			</ul>
+			
+			<a href="https://www.klassyink.com/cart-3/" class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/shopping-cart.png" alt="Cart" style="padding: 10px">Cart
+			</a>
+			
+			<button class="w3-button collapsible w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/product-logo.png" alt="Product" style="padding: 10px">Products
+			</button>
+			
+			<ul class="w3-ul content">
+				
+				<a href="https://www.klassyink.com/tshirt-category/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Graphic T-Shirts
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/plain-t-shirts/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Plain T-Shirts
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/mobile-cover/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Mobile Covers
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/plain-t-shirts/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Custom Designs
+					</li>
+				</a>
+			</ul>
+			
+			<button class="w3-button collapsible w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/categories.png" alt="Categories" style="padding: 10px">Categories
+			</button>
+			
+			<ul class="w3-ul content">
+			
+				<a href="https://www.klassyink.com/tshirt-category/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						T-Shirts
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/mobile-cover/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Mobile Covers
+					</li>
+				</a>
+			
+			</ul>
+			
+			<a href="https://www.klassyink.com/klassyink-blog/" class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/blog.png" alt="Blog" style="padding: 10px">Blog
+			</a>
+			
+			<a href="https://www.klassyink.com/careers/" class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/career.png" alt="Careers" style="padding: 10px">Careers
+			</a>
+			
+			<a href="https://www.klassyink.com/contact-us/" class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/phone.png" alt="Contact" style="padding: 10px">Contact Us
+			</a>
+			
+			<button class="w3-button collapsible w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/building-logo.png" alt="Company" style="padding: 10px">Company
+			</button>
+			
+			<ul class="w3-ul content">
+			
+				<a href="https://www.klassyink.com/about-us/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Company Profile
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/meet-the-team/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Meet the team
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/careers/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Careers
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/testimonials/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Testimonials
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/campus-ambassador/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Campus Ambassador
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/sell-your-artwork/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Sell your artwork
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/win-a-gift-cards/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Win a gift card
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/media-press/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Media/Press
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/product-category/investor/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Investor
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/f-a-q/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						FAQ
+					</li>
+				</a>
+			
+			</ul>
+			
+			<button class="w3-button collapsible w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/question-mark-logo.png" alt="Question" style="padding: 10px">Need Help?
+			</button>
+			
+			<ul class="w3-ul content">
+			
+				<a href="https://www.klassyink.com/shop-with-sidebar-2/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Graphic T-Shirts
+					</li>
+				</a>
+
+				<a href="https://www.klassyink.com/shop-with-sidebar-2/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Plain T-Shirts
+					</li>
+				</a>
+
+				<a href="https://www.klassyink.com/shop-with-sidebar-2/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Mobile Covers
+					</li>
+				</a>
+
+				<a href="https://www.klassyink.com/shop-with-sidebar-2/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Schools & Colleges
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Bulk & Custom Orders
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Custom Design Order
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Design Studio
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						NGO and Government Organisation
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Gift Vouchers
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Sell your artwork
+					</li>
+				</a>
+
+				<a href="#" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						KlassyInk Fan
+					</li>
+				</a>
+
+				<a href="https://www.klassyink.com/sitemap/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Sitemap
+					</li>
+				</a>
+			
+			</ul>
+			
+			<button class="w3-button collapsible w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+				<img src="logos/support-logo.png" alt="Customer-Support" style="padding: 10px">
+				Customer Support
+			</button>
+			
+			<ul class="w3-ul content">
+			
+				<a href="https://www.klassyink.com/contact-us/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Contact Us
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/size-chart/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Size Chart
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/feedback/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Feedback
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/coupon-partners/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Coupon Partners
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/track-order/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Track Order
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/media-contact/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Media Contact
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/klassyink-stores/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						KlassyInk Stores
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/how-it-works/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						How it works
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/terms-conditions/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Terms & Conditions
+					</li>
+				</a>
+				
+				<a href="https://www.klassyink.com/privacy-policy/" style="text-decoration: none">
+					<li class="w3-bar-item w3-button w3-btn w3-ripple w3-hover-blue w3-hover-text-white">
+						Privacy Policy
+					</li>
+				</a>
+			
+			</ul>
+			
+			<button class="w3-button w3-large w3-block w3-btn w3-ripple w3-hover-blue w3-hover-text-white" onclick="w3_close()">
+				&times; Close Menu
+			</button>
+		
+		</div>
+
+		<div id="main">
+
+			<div class="w3-teal" style="position:fixed; top: 0px; width: 100%; position: fixed">
+			
+				<button id="openNav" class="w3-button w3-teal w3-xlarge w3-hover-yellow" onclick="w3_open()">
+					&#9776;  Menu
+				</button>
+				
+				<a href="https://www.klassyink.com/cart-3/" style="text-decoration: none">
+					<button class="w3-button w3-btn w3-ripple w3-right w3-hover-yellow">
+						<img src="logos/shopping-cart.png" alt="Cart">
+					</button>
+				</a>
+
+				<a href="registration.html" style="text-decoration: none">
+					<button class="w3-button w3-btn w3-ripple w3-right w3-hover-yellow">
+						<b>Register</b>
+					</button>
+				</a>
+				
+				<a href="login.html" style="text-decoration: none">
+					<button class="w3-button w3-btn w3-ripple w3-right w3-hover-yellow">
+						<b>Login</b>
+					</button>
+				</a>
+
+				<a href="index.html" style="text-decoration: none">
+					<button class="w3-button w3-btn w3-ripple w3-right w3-hover-yellow">
+						<b>Home</b>
+					</button>
+				</a>
+
+				<input style="margin-top: 8px" class="w3-right w3-animate-input" type="text" placeholder="Search....">
+				
+				<a href="index.html">
+					<button class="w3-button w3-center w3-btn w3-ripple" style="padding: 0px; margin: 0px; border: 0px">
+							<img src="logos/company-logo.png" alt="Company" style="width: 140px; height: 65px">
+					</button>
+				</a>
+			</div>
+		
+		</div>
+
+		<div class="w3-container">
+		
+				<div style="padding: 60px"></div>
+		
+				<div class="w3-content w3-section w3-hover-shadow" style="max-width: 100%">
+					
+					<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+						<img class="slides1" src="images/img-1.png" style="width:100%">
+					</a>
+					
+					<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+						<img class="slides1" src="images/img-2.png" style="width:100%">
+					</a>
+					
+					<a href="https://www.klassyink.com/product-category/mobile-cover/">
+						<img class="slides1" src="images/img-3.png" style="width:100%">
+					</a>
+					
+					<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+						<img class="slides1" src="images/img-4.png" style="width:100%">
+					</a>
+					
+					<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+						<img class="slides1" src="images/img-5.png" style="width:100%">
+					</a>
+				
+				</div>
+			
+				<div class="w3-row-padding w3-mobile">
+					
+					<div class="w3-col s4 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/graphic-t-shirts">
+							<img src="images/img-6.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Graphic-Tshirts" style="width: 100%">
+						</a>
+					</div>
+					
+					<div class="w3-col s4 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/mobile-cover/">
+							<img src="images/img-7.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Mobile-Covers" style="width: 100%">
+						</a>
+					</div>
+					
+					<div class="w3-col s4 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+							<img src="images/img-8.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Customised-Designs" style="width: 100%">
+						</a>
+					</div>
+				
+				</div>
+			
+				<div style="padding: 10px"></div>
+			
+				<div class="w3-row-padding w3-mobile">
+					
+					<div class="w3-col s4 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/plain-t-shirts/">
+							<img src="images/img-9.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Plain-Tshirts" style="width: 100%">
+						</a>
+					</div>
+					
+					<div class="w3-col s8 w3-right w3-stretch w3-mobile">
+						<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+							<img src="images/img-10.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Couple-Tshirts" style="width: 100%">
+						</a>
+					</div>
+				
+				</div>
+			
+				<div style="padding: 10px"></div>
+				
+				<div class="w3-row-padding w3-mobile">
+					
+					<div class="w3-col s6 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+							<img src="images/img-11.png" style="width: 100%" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Graphic-Tshirts" style="width: 100%">
+						</a>
+					</div>
+					
+					<div class="w3-col s6 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/mobile-cover/">
+							<img src="images/img-12.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Mobile-Covers" style="width: 100%">
+						</a>
+					</div>
+				
+				</div>
+				
+				<div style="padding: 10px"></div>
+			
+				<div class="w3-row-padding w3-mobile">
+					
+					<div class="w3-col s6 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+							<img src="images/img-13.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Graphic-Tshirts" style="width: 100%">
+						</a>
+					</div>
+					
+					<div class="w3-col s6 w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/graphic-t-shirts/">
+							<img src="images/img-14.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Custom-Designs" style="width: 100%">
+						</a>
+					</div>
+				
+				</div>
+				
+				<div style="padding: 10px"></div>
+			
+				<div class="w3-row-padding w3-mobile">
+					
+					<div class="w3-col s12 w3-stretch w3-center w3-mobile">
+						<a href="https://www.klassyink.com/product-category/coasters/">
+							<img src="images/img-15.png" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Info" style="width: 100%">
+						</a>
+					</div>
+				
+				</div>
+			
+				<div style="padding: 10px"></div>
+			
+				<p class="w3-panel w3-center w3-border w3-black"><b>OUR MOST RECENT BLOGS</b></p>
+		
+				<div style="padding: 10px"></div>
+			
+				<div class="w3-row-padding w3-mobile">
+				
+				<div class="w3-col s4 w3-center w3-mobile">
+					<img src="images/img-16.jpg" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Blog-1" style="width: 100%">
+					<p>
+						<b class="w3-medium">HOW KlassyInk GOT ITS NAME!</b>
+						<p class="w3-small">September 9th, 2015 | 6,395 Comments</p>
+						HOW KlassyInk GOT ITS NAME! How we Settled on a Unique Name Our [...]
+					</p>
+				</div>
+				
+				<div class="w3-col s4 w3-center w3-mobile">
+					<img src="images/img-17.jpg" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Blog-2" style="width: 100%">
+					<p>
+						<b>KlassyInk GETS FEATURED IN THE ‘Ideapreneur India E-Magazine’!</b>
+						<p class="w3-small">September 9th, 2015 | 6,578 Comments</p>
+						KlassyInk GETS FEATURED IN THE ‘Ideapreneur India E-Magazine’! KlassyInk got featured in [...]
+					</p>
+				</div>
+				
+				<div class="w3-col s4 w3-center w3-mobile">
+					<img src="images/img-18.jpg" class="w3-hover-shadow w3-image w3-card w3-mobile" alt="Blog-3" style="width: 100%">
+					<p>
+						<b>THE STORY BEHIND OUR LOGO COLOR!</b>
+						<p class="w3-small">September 9th, 2015 | 6,450 Comments</p>
+						THE STORY BEHIND OUR LOGO COLOR! What is the first thing that makes [...]
+					</p>
+				</div>
+			
+			</div>
+			
+			<div class="w3-row-padding w3-mobile w3-yellow">
+				
+				<div class="w3-col s4 w3-center w3-mobile">
+					
+					<h4><b>GET DISCOUNTS EVERYDAY TO YOUR EMAIL<b></h4>
+					
+					<form>
+						<input class="w3-medium" type="email" placeholder="Enter your email....">
+						<input class="w3-medium" type="submit" value="SEND">
+					</form>
+				
+				</div>
+				
+				<div class="w3-col s4 w3-center w3-mobile">
+					
+					<h2 class="w3-center"><b>FAN PAGE</b></h2>
+					
+					<a href="https://www.klassyink.com/klassyink-fan-page/">
+						<img src="images/img-19.jpg" alt="Fanpage" class="w3-hover-shadow w3-card">
+					</a>
+					
+					<div style="padding: 8px"></div>
+				
+				</div>
+				
+				<div class="w3-col s4 w3-center w3-mobile">
+					
+					<h4><b>SIGN UP FOR OUR NEWSLETTER!<b></h4>
+					
+					<p class="w3-medium">info@klassyink.com</p>
+					
+					<form>
+						<input class="w3-medium" type="email" placeholder="Enter your email....">
+						<input class="w3-medium" type="submit" value="Sign up">
+					
+					</form>
+				
+				</div>
+				
+			</div>
+			
+			<div style="padding: 10px"></div>
+			
+			<div class="w3-container w3-dark-grey w3-center w3-small w3-mobile">
+				
+				<p>
+					© Copyright 2015 - 2019   |   All Rights Reserved | KlassyInk.com
+				</p>
+				
+				<p>
+					KlassyInk is India's coolest youth lifestyle brand. We are irreverent, desi, fun & forever young. This is the underlying philosophy when we create content, products and services. Using popular culture, emerging trends, design & cultural insights we seek to be a platform for all things that the young relate to.
+				</p>
+				
+				<p>
+					All artwork posted on this site is intended as fan art and is not purported to be official merchandise unless indicated otherwise. If you have any issues regarding the artwork do write to us at<br>
+					<a href="mailto:info@klassyink.com" style="text-decoration: none">
+						info@klassyink.com
+					</a>
+				</p>
+				
+				<img src="images/img-20.png" alt="KlassyInk">
+				
+				<div style="padding: 7px"></div>
+			
+			</div>
+		
+		</div>
+
+		<script type="text/javascript" src="js/sideMenu.js"></script>
+		<script type="text/javascript" src="js/collapsible.js"></script>
+		<script type="text/javascript" src="js/slideShow.js"></script>
+		
+	</body>
+</html> 

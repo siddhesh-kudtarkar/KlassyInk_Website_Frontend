@@ -1,0 +1,48 @@
+.collapsible
+{
+	background-color: white;
+	color: #000;
+	cursor: pointer;
+	padding: 12px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	overflow-y: auto;
+}
+
+.active, .collapsible:hover
+{
+	background-color: white;
+	color: black;
+	font-size: 18px;
+}
+
+.content
+{
+	padding: 0 12px;
+	background-color: white;
+	max-height: 0;
+	text-decoration: none;
+	overflow-y: hidden;
+	transition: max-height 0.2s ease-out;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+
+.collapsible:after
+{
+	content: '\2795';
+	font-size: 18px;
+	color: black;
+	float: right;
+	margin-left: 5px;
+	overflow: visible;
+}
+
+.active:after
+{
+	content: '\2796';
+}
